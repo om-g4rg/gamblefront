@@ -43,7 +43,8 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.4rem;
-  border-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
 }
 
 .scores {
