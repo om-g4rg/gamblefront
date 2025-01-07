@@ -7,14 +7,14 @@ const showScore =document.querySelector(`.score`);
 
 
 const box=document.querySelector(`.box`);
-showScore.textContent=`score: ${totalScore}`;
+showScore.textContent=`score: ${totalScore} `;
 box.style.gridTemplateRows = `repeat(${rows}, 1fr)`;
 box.style.gridTemplateColumns = `repeat(${columns}, 1fr)`;
 
 for(let i=0;i< rows*columns;i++){
     const tile=document.createElement(`div`);
     tile.classList.add(`tiles`);
-    tile.style.border='0.1rem solid black'
+    tile.style.border='0.1rem solid white'
     box.appendChild(tile);
     tile.dataset.index=i+1;
 }
