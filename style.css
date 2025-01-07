@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 5rem;
+  font-size: 4.5rem;
 }
 
 .info {
@@ -24,7 +24,7 @@ body {
 }
 
 .player {
-  background-color: white;
+  background-color: brown;
   width: 48vw;
   height: 45vh;
   display: flex;
@@ -47,7 +47,6 @@ body {
   font-size: 150%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin: 3%;
 }
 .input {
   width: 20vw;
