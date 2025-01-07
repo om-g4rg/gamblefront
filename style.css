@@ -33,7 +33,7 @@ body {
 }
 
 .name {
-  background-color: wheat;
+  background-color: rgba(245, 222, 179, 0);
   width: 40vw;
   height: 20vh;
   color: black;
