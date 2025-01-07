@@ -5,7 +5,7 @@
 const totalScore =localStorage.getItem(`highscore`);
 const playerId = localStorage.getItem(`playerid`)
 
-fetch(`http://localhost:3000/scores`).then(response=> response.json()).then(data=>{
+fetch(`https://gamblebox.onrender.com`).then(response=> response.json()).then(data=>{
     const container = document.querySelector(`.scores`);
     data.forEach(entry => {
         const div= document.createElement('div');
