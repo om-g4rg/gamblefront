@@ -48,7 +48,7 @@ tiles.forEach(function(item,i){
                 item.classList.add(`bomb`);
                 setTimeout(function(){
                     localStorage.setItem(`highscore`, totalScore);
-                    fetch(`http://localhost:3000/score-data`, {
+                    fetch(`https://gamblebox.onrender.com/score-data`, {
                         method:'POST',
                         headers:{
                         'content-type':'application/json'
